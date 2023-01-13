@@ -5,7 +5,7 @@ const config = require('config')
 console.log(config);
 
 app.get('/', (req, res) => {
-  res.send('CICD For NODE APP using CodePipeline!')
+  res.send('CICD For NODE APP using CodePipeline updated 13th jan!')
 })
 
 app.get('/status', (req, res) => {
